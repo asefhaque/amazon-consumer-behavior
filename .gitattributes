@@ -1,0 +1,7 @@
+# Mark Python helper scripts as vendored so SQL remains the primary language
+*.py linguist-vendored
+build_database.py linguist-vendored
+run_analysis.py linguist-vendored
+tableau/*.py linguist-vendored
+queries/*.sql linguist-detectable=true
+queries/*.sql linguist-language=SQL
